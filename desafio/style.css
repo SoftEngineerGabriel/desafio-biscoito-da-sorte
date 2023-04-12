@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+
+    display: grid; /*para centralizar a minha main*/
+    place-items: center;
+}
+.hide{
+    display: none;
+}
+main{
+    margin-top: -12rem;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    background-color: #ffffff;
+    width: 46rem;
+    height: auto;
+    text-align: center;
+
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+/*screen1*/
+main h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+main p{
+    margin-top: 1.4rem;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #34355B;
+}
+main button{
+    border: none;
+    background-color: #ffffff;
+}
+main button:hover{
+    cursor: pointer;
+}
+main img{
+    margin-top:2rem;
+    text-align: center;
+}
+
+.screen2 h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 29px;
+
+    color: #34355B;
+}
+
+.screen2 p{
+    padding: 1rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4rem;
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+}
+
+.screen2 button{
+    margin-top: 1.7rem;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 20px;
+    color: #ffffff;
+
+    background: #FF9500;
+    border-radius: 4px;
+    border: none;
+    padding: 1.6rem;
+    width: auto;
+
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+}
+
+.screen2 button:hover{
+    cursor: pointer;
+}
